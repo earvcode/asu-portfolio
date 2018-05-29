@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<studentinfo>
+  <student>
+    <name>Lowe, Brain</name>
+    <image>face.pmg</image>
+  </student>
+  <student>
+    <name>Deckers, Jason</name>
+    <image>team01.jpg</image>
+  </student>
+  <student>
+    <name>Baker, Charles</name>
+    <image>team02.jpg</image>
+  </student> 
+  <student>
+    <name>Winston, Chelsea</name>
+    <image>team03.jpg</image>
+  </student>
+  <student>
+    <name>Pratt, Michael</name>
+    <image>team04.jpg</image>
+  </student>
+</studentinfo>

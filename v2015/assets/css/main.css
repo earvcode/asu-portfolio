@@ -1,0 +1,249 @@
+/*
+ * Author: Earvena Chalmers
+ * URL: http://www.public.asu.edu/~elchalme
+ *
+ * Project Name: Simple Portfolio
+ * Version: 1.0-07/07/2015
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #4d71f7;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #4d71f7;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-brand i{
+	color: #730f01;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #4d71f7;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#welcome {
+	width: 100%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+}
+
+#welcome h1 {
+	font-size: 80px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #730f01;
+}
+
+#welcom h2 {
+	color: #c0c0c0;
+	font-weight: 400;
+}
+
+/* Green */
+#about {
+	background-color: #730f01;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+#about h3 {
+	color: white;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+#about p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+.btn-email {
+	background-color: #4d71f7;
+}
+.btn-email p{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-weight: 400;	
+	font-size: 25px;
+}
+.btn-email a{
+	/*border: thick solid #4e4e4e;*/
+	color: #ffffff;
+}
+
+/* Skills */
+#skills {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+#skills h3 {
+	color: white;
+}
+
+#skills p {
+	color: white;
+	font-weight: 400;
+}
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#social i {
+	font-size: 50px;
+	color: #4d71f7;
+}
+
+#social .col-md-3:hover {
+	background-color: #f5f5f5;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+/*Email Section*/
+#emailwrap{
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #730f01;
+	color: #fff;
+}
+
+#emailwrap h3{
+	color: #ffffff;
+	font-weight: 300;
+}
+/* Footer */
+#footer {
+	padding-top: 20px;
+	background-color: #ffffff;
+}
+
+#footer p {
+	color: 4e4e4e;
+	text-align: right;
+	font-weight: 400;
+}
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}

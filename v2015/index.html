@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Web Development from Earvena Chalmers">
+    <meta name="author" content="Earvena Chalmers">
+
+    <title>Earvena's Portfolio</title>
+	<link rel="icon" href="assets/img/star.ico" />
+    
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-laptop"></i></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div id="welcome">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>Earvena Chalmers</h1>
+	    			<h2>Front-end Web Development</h2>
+	    		</div><!-- /col-lg-8 -->
+	    	</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /welcome -->
+	
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 centered">
+					<img src="assets/img/webpage.png" alt="Webpage">
+				</div>
+				
+				<div class="col-lg-7 centered">
+					<h3>MY PASSION</h3>
+					<p>I am currently focusing on developing and expanding my knowledge on front end web development including HTML, CSS, Javascript, Jquery and other UI tools. I enjoy learning about responsive web design, single page application development, and content management tools like Wordpress and Drupal. If you are still interested, check out some of my recent projects below.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--My latest work, projects to show-->	
+	<div class="container">
+		<div class="row centered mt grid">
+			<h3>MY LATEST WORK</h3>
+			<div class="mt"></div>
+			<div class="col-lg-4">
+				<a href="http://www.calvarytempe.org/main2017/" target="_blank"><img src="assets/img/calvarytempe2016.jpg" alt="Church Project"></a>
+			</div>			
+			<div class="col-lg-4">
+				<a href="https://nestablish.com/" target="_blank"><img src="assets/img/nestproj.jpg" alt="Joomla Project"></a>
+			</div>
+			<div class="col-lg-4">
+				<a href="http://juzlizn.wix.com/october" target="_blank"><img src="assets/img/juzproj.jpg" alt="Magazine Project"></a>
+			</div>
+
+		</div>
+	
+		<div class="row centered mt grid">
+			<div class="mt"></div>		
+			<div class="col-lg-4">
+				<a href="projects/city/index.html" target="_blank"><img src="assets/img/dreamsproj.jpg" alt="Dreams Project"></a>
+			</div>
+			<div class="col-lg-4">
+				<a href="projects/seating-software/index.html" target="_blank"><img src="assets/img/teacher.png" alt="Seating Project"></a>
+			</div>
+			<div class="col-lg-4">
+				<a href="projects/interior-designs/index.html" target="_blank"><img src="assets/img/paint-backdrop.jpg" alt="Interior Designs Project"></a>
+			</div>
+		</div>
+<!--End of Projects section-->
+		<div class="row mt centered">
+			<div class="col-lg-7 col-lg-offset-1 mt">
+					<p class="lead">Thanks for checking out my projects! If you like you like what you see, feel free to click the button to the right. I am open to freelance work. Don't hesitate, contact me today!</p>
+			</div>
+			<div class="col-lg-3 mt btn-email">
+				<!--<p><button type="button" class="btn btn-theme btn-lg"><a href="#email">Email Me!</a></button></p>-->
+                <p><a href="#email">Email Me!</a></p>
+			</div>
+		</div>
+	</div>
+    
+<!--Skills section-->
+	<div id="skills">
+		<div class="container">
+			<div class="row centered">
+				<h3>MY SKILLS</h3>
+				<div class="col-lg-3 mt">
+					<canvas id="htmlcss" height="130" width="130"></canvas>
+					<p>HTML &amp; CSS</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#730f01"
+								},
+								{
+									value : 30,
+									color : "#f2f2f2"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("htmlcss").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="uidesign" height="130" width="130"></canvas>
+					<p>UI Design</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 40,
+									color:"#730f01"
+								},
+								{
+									value : 60,
+									color : "#f2f2f2"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("uidesign").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="jquery" height="130" width="130"></canvas>
+					<p>Javasript/Jquery</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 55,
+									color:"#730f01"
+								},
+								{
+									value : 45,
+									color : "#f2f2f2"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("jquery").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="photoshop" height="130" width="130"></canvas>
+					<p>Photoshop</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 40,
+									color:"#730f01"
+								},
+								{
+									value : 60,
+									color : "#f2f2f2"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /skills -->
+	
+	<section id="contact"></section>
+	<div id="social">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="col-md-3">
+						<a href="https://www.facebook.com/earvGeek" target="_blank"><i class="fa fa-facebook"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://www.linkedin.com/pub/earvena-chalmers/32/144/b5" target="_blank"><i class="fa fa-linkedin"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="https://earvenatech.wordpress.com"  target="_blank"><i class="fa fa-wordpress"></i></a>
+					</div>
+					<div class="col-md-3">
+						<a href="#email"><i class="fa fa-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+	</div><!-- /social -->
+ <!--Email Section-->   
+	<section id="email" name="email"></section>
+	<div id="emailwrap">
+		<div class="container">
+			
+			<div class="col-lg-8 col-lg-offset-2">
+				<h3>Send Me A Message</h3>
+				<br>
+				<form role="form" method="post" action="https://webapp4.asu.edu/pubtools/Mail" enctype="plain"> 
+                <!---three hidden elements are required by mail server-->
+				<!--change email for submit-->
+        		<input name="sendto" type="hidden" value="elchalme@asu.edu" />
+				<input name="subject" type="hidden" value="Portfolio Contact Request" />
+				<input name="location" type="hidden" value="https://public.asu.edu/~elchalme/index.html"/> 
+				  <div class="form-group">
+				    <label for="name1">Your Name</label>
+				    <input type="name" name="Name" class="form-control" id="name1" placeholder="Your Name">
+				  </div>
+				  <div class="form-group">
+				    <label for="email1">Email address</label>
+				    <input type="email" name="Mail" class="form-control" id="email1" placeholder="Enter email">
+				  </div>
+				  <div class="form-group">
+				  	<label>Your Message</label>
+				  	<textarea class="form-control" name="Message" rows="3"></textarea>
+				  </div>
+				  <br>
+				  <button type="submit" class="btn btn-large" >SUBMIT</button>
+				</form>
+			</div>
+		</div>
+	</div>
+<!--end of email section-->
+
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<p>&copy;2015 Earvena Chalmers</p>
+			</div>
+		</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+/*
+ * Author: Earvena Chalmers
+ * URL: http://public.asu.edu/~elchalme
+ *
+ * Project Name: Simple Seating Chart
+ * Version: 1.0
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lora:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Abel:400,300,700,900);
+
+/* OVERALL ASPECT */
+body{
+	background-color: #ffffff;
+    font-family: "Abel";
+    font-weight: 300;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+	overflow-x:hidden;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lora";
+    font-weight: 300;
+}
+.centered{
+	text-align: center;
+}
+#header-logo{
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #e0bd8d;
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#header-logo a{
+	color: #fff;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+/*Navbar Styles*/
+.navbar {
+	margin-bottom: 0px;
+	padding-top: 10px;
+	min-height: 50px;
+}
+.navbar-brand{
+	font-size: 25px;
+	font-weight: 700;
+}
+.navbar-default{
+	background-color: #fff;
+	border-color: transparent;
+}
+.navbar-nav{
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-nav li{
+	float: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.navbar-nav i{
+	padding-right: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+	font-family: Lora;
+	color: #2096cd;
+	font-weight: 700;
+	font-size: 25px;
+	padding: 5px;
+	margin-right: 25px;
+	font-stretch:expanded;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #999;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #2096cd;
+	background-color: transparent;
+}
+/*JUMBOTRON STYLING*/
+#jumbotron{
+	background-color: #fff;
+	padding-top: 0px;
+	min-height: 250px;
+	text-align: center;
+}
+.main-text{
+	padding-top: 100px;
+	color: #4f402e;
+}
+.main-text h1{
+	font-weight: 700;
+}
+/*ABOUT AREA STYING*/
+#about{
+	min-height: 500px;
+	background-color: #e0bd8d;
+	 color: #4f402e;
+	 padding-top: 50px;
+	
+}
+#about h1{
+	font-family: Abel;
+	font-weight: 700;
+	color: #2096cd;
+	text-shadow: 1px 1px 1px #fff;
+}
+#about p{
+	font-size: 50px;
+	color: #fff;
+}
+.line-row{
+
+	padding-bottom: 25px;
+}
+.line-row .hr {
+		background-color: #fff;
+		height: 5px;
+		margin: 0 auto;
+		width: 33%;
+}
+.row-click p{
+	width: 50px;
+	margin: 0 auto;
+}
+#sample, #sample p{
+	margin-left: 25px;
+}
+/* SEATING CHART */
+#seatingContainer{
+	color: #fff;
+}
+#studentlist, #seatingArea{
+	background-color: #2096cd;
+	min-height: 500px;
+	border: thin inset #fff;
+	padding-top: 15px;
+}
+#originlist ul{
+	min-height: 250px;
+}
+
+#originlist li{
+	list-style: none;
+	border: thin solid #000;
+	margin-bottom: 1px;
+}
+#originlist img{
+	display: none;
+}
+
+#seatingArea li{
+	list-style: none;
+	display: inline-block;
+	padding-right: 15px;
+}
+/* Contact Area Styling */
+#contact{
+	min-height: 350px;
+	background-color: #e0bd8d;
+	color: #fff;
+}
+#contact h1{
+	font-family: Abel;
+	font-weight: 700;
+	color: #2096cd;
+	text-shadow: 1px 1px 1px #fff;
+}
+/* Footer */
+#footer {
+	padding-top: 20px;
+	background-color: #fff;
+}
+
+#footer p {
+	color: #2096cd;
+	font-weight: 400;
+}

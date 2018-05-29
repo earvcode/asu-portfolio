@@ -1,0 +1,180 @@
+/*
+ * Author: Earvena Chalmers
+ * URL: public.asu.edu/~elchalme
+ *
+ * Project Name: UNSTOPPABLE - story of dreams and goals
+ * Version: 1.0
+ * DATE: 08/01/2015
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #fff;
+    font-family: "Titillium";
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 0px;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #555;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+.navbar p{
+	margin-top: 15px;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #ffffff;
+
+}
+/*.navbar-inverse .navbar-nav li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}*/
+.navbar-inverse .navbar-nav li > a{
+	color: #fff;
+}
+
+
+.navbar-brand {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.navbar-brand i{
+	padding-right: 15px;
+	color: #16a085;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+/*----------------------------------*/
+/* title */
+#titleWrap {
+	width: 100%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#titleWrap h1 {
+	font-size: 90px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	color: #000;
+}
+
+
+#introWrap{
+	background-color: #000;
+	color: #fff;
+	min-height: 200px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#chapter1Wrap, #chapter2Wrap, #chapter3Wrap
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* Footer */
+#footer {
+	padding-top: 20px;
+	background-color: #000;
+}
+
+#footer p {
+	color: white;
+	text-align: right;
+	font-weight: 400;
+}
+
+
