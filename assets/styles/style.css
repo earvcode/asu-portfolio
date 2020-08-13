@@ -18,7 +18,7 @@ a:hover {
     padding: 10px 20px; 
     text-align: center !important;
 }
-#skills a, #contact a{
+#skills i, #contact a{
     color: #FFC627;
     padding: 10px 20px; 
 
@@ -32,6 +32,7 @@ a:hover {
 .name{
     margin-top: 4%; 
     color: #8C1D40; 
+    /*-webkit-text-stroke: 2px #FFC627; */
 }
 #logo{
     background: url('../images/rocketidea.png') no-repeat center center;
@@ -72,14 +73,23 @@ a:hover {
     background: url('../images/2013graduation.png') no-repeat center center;
     min-height: 400px; 
     background-size: cover;
-    border: #FFC627 2px solid; 
+    border: #8C1D40 2px solid; 
 
+}
+#edu1 h3, #edu2 h3{
+   margin-top: 35%; 
+   color: #FFC627;
+
+   font-weight: 900;
+   -webkit-text-stroke: 2px #000;
+
+   /*background-color: #000;*/
 }
 #edu2{
     background: url('../images/fam2017grad.png') no-repeat center center;
     min-height: 200px; 
     background-size: cover;
-    border: #FFC627 2px solid; 
+    border: #8C1D40 2px solid; 
 
 }
 /*----- SKILLS STYLES -------- */
