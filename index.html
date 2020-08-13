@@ -8,14 +8,24 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Frontend Development, Code">
     <meta name="author" content="Earvena Chalmers">
  
+    <title>Chalmers ASU Portfolio</title>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/styles/style.css" type="text/css">
 
     <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon" />
-    
-    <title>Chalmers ASU Portfolio</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lte IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   </head>
   <body>
     <!-- CODING HEADER -->
@@ -67,12 +77,25 @@
       </div>
     </nav>
     <!-- CODING ABOUT ME -->
-    <div class="container">
+    <div id="aboutMe" class="container">
+      <div class="row justify-content-center title">
+        <h4>ABOUT ME</h4>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <img src="assets/images/2017grad.png" alt="..." class="img-thumbnail">
+        </div>
+        <div class="col-9">
 
+        </div>
+      </div>
     </div>
 
     <!-- CODING EDUCATION -->
     <div class="container-fluid">
+      <div class="row justify-content-center title">
+        <h4>EDUCATION</h4>
+      </div>
       <div class="row">
         <div id="edu1" class="col-6 education"></div>
         <div id="edu2" class="col-6 education"></div> 
@@ -80,24 +103,44 @@
     </div>
 
     <!-- CODING SKILLS -->
-    <div class="container">
-      <div class="row">
+    <div id="skills" class="container">
+      <div class="row title justify-content-center">
+        <h4>SKILLS</h4>
+      </div>
+      <div class="row justify-content-center">
+        <i class="fab fa-html5 fa-5x"></i>
+        <i class="fab fa-css3 fa-5x"></i>
+        <i class="fab fa-js fa-5x"></i>
+      </div>
+      <div class="row justify-content-center">
 
       </div>
-      <div class="row"></div>
     </div>
 
     <!-- CODING PAST PROJECTS -->
+    
 
     <!-- CODING PRESENT PROJECTS -->
 
     <!-- CODING FUTURE PROJECTS -->
 
     <!-- CODING CONTACT -->
+    <div id="contact" class="container">
+      <div class="row justify-content-center title">
+        <h4>CONTACT</h4>
+      </div>
+      <div class="row justify-content-center">
+        <i class="fab fa-github-square fa-5x"></i>
+        <i class="fab fa-linkedin fa-5x"></i>
+        <i class="fa fa-envelope-square fa-5x"></i>
+        <i class="fab fa-facebook-square fa-5x"></i>
+      </div>
+    </div>
+
 
     <!-- CODING FOOTER -->
     <div id="footer" class="container-fluid bg-dark">
-      <p>&copy;2020 E Chalmers </p>
+      <p>&copy; 2020 E Chalmers </p>
     </div>
 
     <!-- CONTACT MODAL: ON LOAD-->
@@ -122,15 +165,13 @@
       </div>
     </div>
 
-
-
-
+    <!-- BEGIN SCRIPTS -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/35de4a1281.js" crossorigin="anonymous"></script>
       <!-- Optional JavaScript -->
+    <script src="https://kit.fontawesome.com/35de4a1281.js" crossorigin="anonymous"></script>
     <script src="assets/scripts/scripts.js"></script>
     <script type="text/javascript">
 

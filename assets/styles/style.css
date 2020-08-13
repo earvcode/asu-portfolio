@@ -7,6 +7,14 @@ body {
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
+.title {
+    font: 'Lato';
+    padding: 10px 20px; 
+}
+#skills i , #contact i{
+    color: #5C6670;
+    padding: 10px 20px; 
+}
 
 /*----- HEADER STYLES -------- */
 #header{
@@ -17,6 +25,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .name{
     margin-top: 4%; 
+    color: #8C1D40; 
 }
 #logo{
     background: url('../images/rocketidea.png') no-repeat center center;
@@ -37,30 +46,46 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*----- NAVIGATION STYLES -------- */
-.navbar a{
-    color: #fff !important;
+.nav-link{
+    color: #FFC627 !important;
     font-size: 1.25em;
     padding: 2px; 
 }
-/*----- SKILLS STYLES -------- */
+.nav-link:hover {
+    color: #3344dd !important; 
+}
+/*----- ABOUT ME STYLES -------- */
+#aboutMe{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+.img-thumbnail {
+    border: #8C1D40 2px solid; 
+}
 
 /*----- EDUCATION  STYLES -------- */
 #edu1{
     background: url('../images/2013graduation.png') no-repeat center center;
     min-height: 400px; 
     background-size: cover;
+    border: #FFC627 2px solid; 
 
 }
 #edu2{
     background: url('../images/fam2017grad.png') no-repeat center center;
     min-height: 200px; 
     background-size: cover;
+    border: #FFC627 2px solid; 
 
 }
-/*----- NAVIGATION STYLES -------- */
+/*----- SKILLS STYLES -------- */
+
 
 /*----- NAVIGATION STYLES -------- */
 
 /*----- NAVIGATION STYLES -------- */
 
-/*----- NAVIGATION STYLES -------- */
+/*----- FOOTER STYLES -------- */
+#footer {
+    color: #FFC627; 
+}
