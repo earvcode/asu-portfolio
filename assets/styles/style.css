@@ -7,21 +7,27 @@ body {
 h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
+.center {
+    text-align: center !important;
+}
+a:hover {
+    color: #398EEA !important; 
+}
 .title {
     font: 'Lato';
     padding: 10px 20px; 
+    text-align: center !important;
 }
-#skills i , #contact i{
-    color: #5C6670;
+#skills a, #contact a{
+    color: #FFC627;
     padding: 10px 20px; 
+
 }
 
 /*----- HEADER STYLES -------- */
 #header{
     border-bottom: #000;
-
     padding-left: 2%;
-
 }
 .name{
     margin-top: 4%; 
@@ -36,7 +42,7 @@ h1, h2, h3, h4, h5, h6{
 
 /*----- JUMBOTRON STYLES -------- */
 #banner{
-    background: url('../images/asulargerbanner2.png') no-repeat center center;
+    background: url('../images/mainBanner.png') no-repeat center center;
     background-color: #fff;
     border: #000 4px solid; 
     background-size: 100%;
@@ -51,9 +57,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 1.25em;
     padding: 2px; 
 }
-.nav-link:hover {
-    color: #3344dd !important; 
-}
+
 /*----- ABOUT ME STYLES -------- */
 #aboutMe{
     padding-top: 20px; 
@@ -79,7 +83,10 @@ h1, h2, h3, h4, h5, h6{
 
 }
 /*----- SKILLS STYLES -------- */
+.card img {
+    height: 200px; 
 
+}
 
 /*----- NAVIGATION STYLES -------- */
 
