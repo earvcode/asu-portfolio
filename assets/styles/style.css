@@ -37,9 +37,26 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*----- NAVIGATION STYLES -------- */
-/*----- NAVIGATION STYLES -------- */
-/*----- NAVIGATION STYLES -------- */
+.navbar a{
+    color: #fff !important;
+    font-size: 1.25em;
+    padding: 2px; 
+}
+/*----- SKILLS STYLES -------- */
 
+/*----- EDUCATION  STYLES -------- */
+#edu1{
+    background: url('../images/2013graduation.png') no-repeat center center;
+    min-height: 400px; 
+    background-size: cover;
+
+}
+#edu2{
+    background: url('../images/fam2017grad.png') no-repeat center center;
+    min-height: 200px; 
+    background-size: cover;
+
+}
 /*----- NAVIGATION STYLES -------- */
 
 /*----- NAVIGATION STYLES -------- */
