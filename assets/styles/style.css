@@ -37,7 +37,7 @@ a:hover {
 #logo{
     background: url('../images/rocketidea.png') no-repeat center center;
     min-height: 120px; 
-    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -100,13 +100,27 @@ a:hover {
 
 /*----- PROJECTS STYLES -------- */
 #pastproj {
-    padding-bottom: 20px; 
+    padding-bottom: 40px; 
 }
 #pastproj h3, #futureproj h3, #pastproj h5, #futureproj h5 {
     color: #FFC627;
 }
 #pastproj .card {
     border: #8C1D40 2px solid; 
+}
+
+.proj2020 {
+    background: url('../images/2020canvas.png') no-repeat center center;
+    min-height: 200px; 
+    background-size: cover;
+    border: #8C1D40 2px solid; 
+}
+
+.proj2021 {
+    background: url('../images/2021canvas.png') no-repeat center center;
+    min-height: 200px; 
+    background-size: cover;
+    border: #FFC627 2px solid; 
 }
 /*----- NAVIGATION STYLES -------- */
 
