@@ -99,9 +99,11 @@ a:hover {
 }
 
 /*----- PROJECTS STYLES -------- */
-#pastproj {
-    padding-bottom: 40px; 
+.proj-section {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
+
 #pastproj h3, #futureproj h3, #pastproj h5, #futureproj h5 {
     color: #FFC627;
 }
@@ -122,9 +124,10 @@ a:hover {
     background-size: cover;
     border: #FFC627 2px solid; 
 }
-/*----- NAVIGATION STYLES -------- */
+/*----- CONTACT STYLES -------- */
 
 /*----- FOOTER STYLES -------- */
 #footer {
     color: #FFC627; 
+    min-height: 2rem; 
 }
