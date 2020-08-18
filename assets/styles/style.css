@@ -64,6 +64,9 @@ a:hover {
     padding-top: 20px; 
     padding-bottom: 20px;
 }
+#aboutMe h4 {
+    color: #8C1D40;
+}
 .img-thumbnail {
     border: #8C1D40 2px solid; 
 }
@@ -130,4 +133,11 @@ a:hover {
 #footer {
     color: #FFC627; 
     min-height: 2rem; 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 780px) {
+    .card-body {
+        display: none;
+    }
 }
