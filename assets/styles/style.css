@@ -29,7 +29,7 @@ a:hover {
     border-bottom: #000;
     padding-left: 2%;
 }
-.name{
+#home{
     margin-top: 4%; 
     color: #8C1D40; 
     -webkit-text-stroke: 0.5px #FFC627; 
@@ -128,7 +128,9 @@ a:hover {
     border: #FFC627 2px solid; 
 }
 /*----- CONTACT STYLES -------- */
-
+#contactModal i {
+    padding-right: 10px; 
+}
 /*----- FOOTER STYLES -------- */
 #footer {
     color: #FFC627; 
