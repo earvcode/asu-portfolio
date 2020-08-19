@@ -11,7 +11,7 @@ $(function(){
         }
     equalHeight();
 });
-/*
+
 $(function(){
     function equalHeight(){
         var heightArray = $(".sameHeight2").map( function(){
@@ -21,4 +21,4 @@ $(function(){
             $(".sameHeight2").height(maxHeight);
         }
     equalHeight();
-}); */
+}); 
