@@ -110,26 +110,11 @@ a:hover {
 #pastproj h3, #futureproj h3, #pastproj h5, #futureproj h5 {
     color: #FFC627;
 }
-#pastproj .card {
+#pastproj .card, #presentproj .card, #futureproj .card{
     border: #8C1D40 2px solid; 
-}
-#presentproj {
     text-align: center;
 }
-.proj2020 {
-    /*background: url('../images/2020canvas.png') no-repeat center center;
-    min-height: 200px; 
-    background-size: cover; */
-    color: #8C1D40;
-    padding-right: 20px;
-}
 
-.proj2021 {
-    background: url('../images/2021canvas.png') no-repeat center center;
-    min-height: 200px; 
-    background-size: cover;
-    border: #FFC627 2px solid; 
-}
 /*----- CONTACT STYLES -------- */
 #contactModal i {
     padding-right: 10px; 
@@ -142,7 +127,7 @@ a:hover {
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 780px) {
-    .card-body {
-        display: none;
+    .about {
+        font-size: 1em;
     }
 }
