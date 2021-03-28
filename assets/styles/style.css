@@ -65,7 +65,7 @@ a:hover {
 }
 #aboutMe h4 {
     color: #8C1D40;
-    font-weight: 300;
+    /*font-weight: 300; */
 }
 .img-thumbnail {
     border: #8C1D40 2px solid; 
